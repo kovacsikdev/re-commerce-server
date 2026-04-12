@@ -1,0 +1,728 @@
+{
+  "id": "1",
+  "name": "RE Commerce",
+  "items": [
+    {
+      "id": "SGF0Y2hldA==",
+      "name": "Hatchet",
+      "description": "A hatchet used by special forces. Capable of delivering fatal blows, but requires regular maintenance to stay sharp.",
+      "short_description": "Razor sharp melee weapon.",
+      "price": 1000,
+      "discount": 0,
+      "category": "melee",
+      "related_to": [],
+      "img_hero_url": "/items/SGF0Y2hldA==/hero.webp",
+      "img_gallery_urls": [
+        "/items/SGF0Y2hldA==/base_1.webp",
+        "/items/SGF0Y2hldA==/base_2.webp",
+        "/items/SGF0Y2hldA==/parts_1.webp",
+        "/items/SGF0Y2hldA==/parts_2.webp"
+      ],
+      "img_3d_url": "/items/SGF0Y2hldA==/hero_3d.glb",
+      "parts": [
+        {
+          "id": "part_8",
+          "name": "Improved Grip",
+          "description": "Made of *highly durable* reinforced plastic, the reduced weight improves the overall balance.",
+          "price": 5000,
+          "discount": 0,
+          "discount_description": ""
+        },{
+          "id": "part_9",
+          "name": "Fortified Blade",
+          "description": "Made of nitrogen-strengthened steel. Extremely durable, rust-resistant, and *razor sharp*.",
+          "price": 9000,
+          "discount": 0,
+          "discount_description": ""
+        }
+      ]
+    },
+    {
+      "id": "SGVtb2x5dGljIEluamVjdG9y",
+      "name": "Hemolytic Injector",
+      "description": "A special drug that destroys infected blood cells. Prevents corpses from mutating and can be used to stealthily take out enemies.",
+      "short_description": "Chemical weapon against the infected.",
+      "price": 400,
+      "discount": 0,
+      "category": "melee",
+      "related_to": [],
+      "img_hero_url": "/items/SGVtb2x5dGljIEluamVjdG9y/hero.webp",
+      "img_gallery_urls": []
+    },
+    {
+      "id": "RW1wdHkgQm90dGxl",
+      "name": "Empty Bottle",
+      "description": "An empty glass bottle with a faint medicinal smell. It'll smash and draw the attention of those nearby when thrown.",
+      "short_description": "Multi-purpose empty bottle.",
+      "price": 10,
+      "discount": 0,
+      "category": "melee",
+      "related_to": ["Qm90dGxlIG9mIEFjaWQ="],
+      "img_hero_url": "/items/RW1wdHkgQm90dGxl/hero.webp",
+      "img_gallery_urls": []
+    },
+    {
+      "id": "Qm90dGxlIG9mIEFjaWQ=",
+      "name": "Bottle of Acid",
+      "description": "A bottle of concentrated sulfuric acid that is highly effective against enemies with exposed tissue.",
+      "short_description": "Bottle containing sulfuric acid.",
+      "price": 200,
+      "discount": 0,
+      "category": "melee",
+      "related_to": ["RW1wdHkgQm90dGxl"],
+      "img_hero_url": "/items/Qm90dGxlIG9mIEFjaWQ=/hero.webp",
+      "img_gallery_urls": []
+    },
+    {
+      "id": "TWVkIEluamVjdG9y",
+      "name": "Med Injector",
+      "description": "A device used to administer medicine in an emergency. Fully restores your health.",
+      "short_description": "Full health injection.",
+      "price": 1500,
+      "discount": 0,
+      "category": "medical",
+      "related_to": ["R3JlZW4gSGVyYg=="],
+      "img_hero_url": "/items/TWVkIEluamVjdG9y/hero.webp",
+      "img_gallery_urls": []
+    },
+    {
+      "id": "R3JlZW4gSGVyYg==",
+      "name": "Green Herb",
+      "description": "A green herb that will restore a small amount of health. Can be combined to enchance their effects.",
+      "short_description": "Small health restoration.",
+      "price": 500,
+      "discount": 0,
+      "category": "medical",
+      "related_to": ["TWVkIEluamVjdG9y"],
+      "img_hero_url": "/items/R3JlZW4gSGVyYg==/hero.webp",
+      "img_gallery_urls": []
+    },
+    {
+      "id": "SGFuZGd1biBBbW1v",
+      "name": "Handgun Ammo",
+      "description": "Handgun cartridges suitable for self-loading. Favored for their flat trajectory and moderate recoil. Comes in a pack of 10 bullets.",
+      "short_description": "Red Eagle handgun ammo.",
+      "price": 50,
+      "discount": 0,
+      "category": "ammunition",
+      "related_to": [],
+      "img_hero_url": "/items/SGFuZGd1biBBbW1v/hero.webp",
+      "img_gallery_urls": ["/items/SGFuZGd1biBBbW1v/base_1.webp"],
+      "img_3d_url": "/items/SGFuZGd1biBBbW1v/hero_3d.glb"
+    },
+    {
+      "id": "U2hvdGd1biBTaGVsbHM=",
+      "name": "Shotgun Shells",
+      "description": "Buckshot ammo for shotgun. Each shell has a wide burst, packing a powerful punch. Comes in a pack of 3 shells.",
+      "short_description": "Steel Boy shotgun shells.",
+      "price": 200,
+      "discount": 100,
+      "discount_description": "50% off",
+      "category": "ammunition",
+      "related_to": [],
+      "img_hero_url": "/items/U2hvdGd1biBTaGVsbHM=/hero.webp",
+      "img_gallery_urls": ["/items/U2hvdGd1biBTaGVsbHM=/base_1.webp"],
+      "img_3d_url": "/items/U2hvdGd1biBTaGVsbHM=/hero_3d.glb"
+    },
+    {
+      "id": "TWFjaGluZSBHdW4gQW1tbw==",
+      "name": "Machine Gun Ammo",
+      "description": "Compact and highly portable machine gun ammo. It's comparatively low recoil results in high accuracy. Great for suppressive fire tactics. Comes in a pack of 20 rounds.",
+      "short_description": "Hornet Rush machine gun ammo.",
+      "price": 40,
+      "discount": 0,
+      "category": "ammunition",
+      "related_to": [],
+      "img_hero_url": "/items/TWFjaGluZSBHdW4gQW1tbw==/hero.webp",
+      "img_gallery_urls": ["/items/TWFjaGluZSBHdW4gQW1tbw==/base_1.webp"],
+      "img_3d_url": "/items/TWFjaGluZSBHdW4gQW1tbw==/hero_3d.glb"
+    },
+    {
+      "id": "UmlmbGUgQW1tbw==",
+      "name": "Rifle Ammo",
+      "description": "High-penetration rifle cartridges. Designed to allow for flat trajectory and accurate shooting. Comes in a pack of 3 bullets.",
+      "short_description": "Dragonfly rifle ammo.",
+      "price": 300,
+      "discount": 0,
+      "category": "ammunition",
+      "related_to": [],
+      "img_hero_url": "/items/UmlmbGUgQW1tbw==/hero.webp",
+      "img_gallery_urls": ["/items/UmlmbGUgQW1tbw==/base_1.webp"],
+      "img_3d_url": "/items/UmlmbGUgQW1tbw==/hero_3d.glb"
+    },
+    {
+      "id": "TWFnbnVtIEFtbW8=",
+      "name": "Magnum Ammo",
+      "description": "Powerful large-caliber cartridges. The destructive power and impact from the sheer mass of the bullet delivers overwhelming damage. Comes in a pack of 3 rounds.",
+      "short_description": "12.7x55mm Ammo.",
+      "price": 100,
+      "discount": 0,
+      "category": "ammunition",
+      "related_to": [],
+      "img_hero_url": "/items/TWFnbnVtIEFtbW8=/hero.webp",
+      "img_gallery_urls": ["/items/TWFnbnVtIEFtbW8=/base_1.webp"],
+      "img_3d_url": "/items/TWFnbnVtIEFtbW8=/hero_3d.glb"
+    },
+    {
+      "id": "SGFuZCBHcmVuYWRl",
+      "name": "Hand Grenade",
+      "description": "A hand grenade that disperses a powerful shockwave when it explodes.",
+      "short_description": "Scalable hand grenade.",
+      "price": 500,
+      "discount": 0,
+      "category": "weapons",
+      "related_to": [],
+      "img_hero_url": "/items/SGFuZCBHcmVuYWRl/hero.webp",
+      "img_gallery_urls": [],
+      "img_3d_url": "/items/SGFuZCBHcmVuYWRl/hero_3d.glb"
+    },
+    {
+      "id": "U3RhY2tlZCBIYW5kIEdyZW5hZGU=",
+      "name": "Stacked Hand Grenade",
+      "description": "A hand grenade with another one attached to the bottom. Double the grenades, double the explosion.",
+      "short_description": "Stacked scalable hand grenades.",
+      "price": 1200,
+      "discount": 0,
+      "category": "weapons",
+      "related_to": [],
+      "img_hero_url": "/items/U3RhY2tlZCBIYW5kIEdyZW5hZGU=/hero.webp",
+      "img_gallery_urls": [],
+      "img_3d_url": "/items/U3RhY2tlZCBIYW5kIEdyZW5hZGU=/hero_3d.glb"
+    },
+    {
+      "id": "R2Fs",
+      "name": "Gal",
+      "description": "A submachine gun developed in the 1950s. Lacks accuracy, but has a large ammo capacity, suitable for bursts of sustained fire.",
+      "short_description": "1950s submachine gun.",
+      "price": 2000,
+      "discount": 0,
+      "category": "weapons",
+      "related_to": [],
+      "img_hero_url": "/items/R2Fs/hero.webp",
+      "img_gallery_urls": [
+        "/items/R2Fs/base_1.webp",
+        "/items/R2Fs/base_2.webp",
+        "/items/R2Fs/parts_1.webp",
+        "/items/R2Fs/parts_2.webp"
+      ],
+      "img_3d_url": "/items/R2Fs/hero_3d.glb",
+      "parts": [
+        {
+          "id": "part_14",
+          "name": "Titanium Bolt",
+          "description": "This sturdy bolt is built to withstand recoil from rapid-fire shots. Made of titanium but surprisingly light. *Increases power*.",
+          "price": 6000,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_15",
+          "name": "Titanium Magazine Catch",
+          "description": "Designed for smooth operation, it allows for *quick magaine changes*.",
+          "price": 3500,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_16",
+          "name": "High-Capacity Mag",
+          "description": "Higher capacity compared to regular magazines. *More ammo means less reloading*.",
+          "price": 5000,
+          "discount": 0,
+          "discount_description": ""
+        }
+      ]
+    },
+    {
+      "id": "U3RpcmkgUkVWTzMgQTE=",
+      "name": "Stiri REVO3 A1",
+      "description": "A lightweight, compact, polymer frame submachine gun. Has a high rate of fire and does considerable damage. Add a stock to improve accuracy.",
+      "short_description": "Lightweight, compact modern submachine gun.",
+      "price": 6000,
+      "discount": 0,
+      "category": "weapons",
+      "related_to": [],
+      "img_hero_url": "/items/U3RpcmkgUkVWTzMgQTE=/hero.webp",
+      "img_gallery_urls": [
+        "/items/U3RpcmkgUkVWTzMgQTE=/base_1.webp",
+        "/items/U3RpcmkgUkVWTzMgQTE=/base_2.webp",
+        "/items/U3RpcmkgUkVWTzMgQTE=/parts_1.webp",
+        "/items/U3RpcmkgUkVWTzMgQTE=/parts_2.webp"
+      ],
+      "img_3d_url": "/items/U3RpcmkgUkVWTzMgQTE=/hero_3d.glb",
+      "parts": [
+        {
+          "id": "part_31",
+          "name": "Dot Sight",
+          "description": "Allows for *quicker aiming* and more *precise shooting*.",
+          "price": 1500,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_32",
+          "name": "Folding Stock",
+          "description": "A lightweight, side-folding stock. *Increases stability*.",
+          "price": 3000,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_33",
+          "name": "High-Capacity Mag",
+          "description": "Higher capacity compared to regular magazines. *More ammo means less reloading*.",
+          "price": 4000,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_34",
+          "name": "Long Flash Guard",
+          "description": "It reduces recoil by venting gas sidewayes, *increasing stability* during rapid fire",
+          "price": 0,
+          "discount": 0,
+          "discount_description": ""
+        }
+      ]
+    },
+    {
+      "id": "TVNCRyA1MDA=",
+      "name": "MSBG 500",
+      "description": "A compact, pump-action shotgun. Offers excellent spread, but with limited capacity. Can be customized for an even wider blast.",
+      "short_description": "Compact pump-action shotgun.",
+      "price": 2500,
+      "discount": 1250,
+      "discount_description": "50% off",
+      "category": "weapons",
+      "related_to": [],
+      "img_hero_url": "/items/TVNCRyA1MDA=/hero.webp",
+      "img_gallery_urls": [
+        "/items/TVNCRyA1MDA=/base_1.webp",
+        "/items/TVNCRyA1MDA=/base_2.webp",
+        "/items/TVNCRyA1MDA=/parts_1.webp",
+        "/items/TVNCRyA1MDA=/parts_2.webp"
+      ],
+      "img_3d_url": "/items/TVNCRyA1MDA=/hero_3d.glb",
+      "parts": [
+        {
+          "id": "part_23",
+          "name": "Duralumin Bolt",
+          "description": "Made of lightweight duralumin alloy where possible. *Increase power and rate of fire*.",
+          "price": 6500,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_24",
+          "name": "Balanced Spring",
+          "description": "This precision spring balances feed and load operations, enabling *silky smooth operation*.",
+          "price": 4000,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_25",
+          "name": "Duckbill Choke",
+          "description": "The protruding plates on the top and bottom allow for *shots to scatter horizontally*.",
+          "price": 2500,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_26",
+          "name": "Dualumin Action Bar",
+          "description": "A lightweight action bar that allows for *quick pump action*.",
+          "price": 0,
+          "discount": 0,
+          "discount_description": ""
+        }
+      ]
+    },
+    {
+      "id": "Vzg3MCBQb2xpY2U=",
+      "name": "W870 Police",
+      "description": "A pump-action shotgun that boasts an impressive spread. Requires a firm grip to keep its high power in check.",
+      "short_description": "High powered pump-action shotgun.",
+      "price": 3000,
+      "discount": 1500,
+      "discount_description": "50% off",
+      "category": "weapons",
+      "related_to": [],
+      "img_hero_url": "/items/Vzg3MCBQb2xpY2U=/hero.webp",
+      "img_gallery_urls": [
+        "/items/Vzg3MCBQb2xpY2U=/base_1.webp",
+        "/items/Vzg3MCBQb2xpY2U=/base_2.webp",
+        "/items/Vzg3MCBQb2xpY2U=/parts_1.webp",
+        "/items/Vzg3MCBQb2xpY2U=/parts_2.webp"
+      ],
+      "img_3d_url": "/items/Vzg3MCBQb2xpY2U=/hero_3d.glb",
+      "parts": [
+        {
+          "id": "part_5",
+          "name": "Silver Tube Extension",
+          "description": "Extends a regular magainze tube for *increased ammo capacity*.",
+          "price": 5000,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_6",
+          "name": "Chrome Stock",
+          "description": "An extra sturdy, chrome-finished folding stock. *Increases stability*.",
+          "price": 3000,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_7",
+          "name": "Chrome Barrel",
+          "description": "A durable, wear-resistant chrome plating lines the barrel's interior. *Increases power*.",
+          "price": 9000,
+          "discount": 0,
+          "discount_description": ""
+        }
+      ]
+    },
+    {
+      "id": "OTkwLVRBQw==",
+      "name": "990-TAC",
+      "description": "A modern, semi-automatic shotgun. With excellent grouping, it is ideal for precision shooting. A dot sight can be attached.",
+      "short_description": "Modern, semi-automatic shotgun.",
+      "price": 7000,
+      "discount": 3500,
+      "discount_description": "50% off",
+      "category": "weapons",
+      "related_to": [],
+      "img_hero_url": "/items/OTkwLVRBQw==/hero.webp",
+      "img_gallery_urls": [
+        "/items/OTkwLVRBQw==/base_1.webp",
+        "/items/OTkwLVRBQw==/base_2.webp",
+        "/items/OTkwLVRBQw==/parts_1.webp",
+        "/items/OTkwLVRBQw==/parts_2.webp"
+      ],
+      "img_3d_url": "/items/OTkwLVRBQw==/hero_3d.glb",
+      "parts": [
+        {
+          "id": "part_27",
+          "name": "Dot Sight",
+          "description": "Allows for *quicker aiming* and more *precise shooting*.",
+          "price": 1500,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_28",
+          "name": "Stock",
+          "description": "The shock-absorbing cheek pads provide *extra stability* when firing.",
+          "price": 3000,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_29",
+          "name": "Carbon Tube Extension",
+          "description": "Extends a regular magainze tube for *increased ammo capacity*.",
+          "price": 5000,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_30",
+          "name": "Ceramic Coated Barrel",
+          "description": "Its ceramic coating *increases durability* and keeps everything squeaky clean.",
+          "price": 5000,
+          "discount": 0,
+          "discount_description": ""
+        }
+      ]
+    },
+    {
+      "id": "QWxsaWdhdG9yIFNuYXBwZXI=",
+      "name": "Alligator Snapper",
+      "description": "A reliable semi-automatic handgun. this custom model is issued to DSO personnel.",
+      "short_description": "Standard DSO handgun.",
+      "price": 1000,
+      "discount": 0,
+      "category": "weapons",
+      "related_to": [],
+      "img_hero_url": "/items/QWxsaWdhdG9yIFNuYXBwZXI=/hero.webp",
+      "img_gallery_urls": [
+        "/items/QWxsaWdhdG9yIFNuYXBwZXI=/base_1.webp",
+        "/items/QWxsaWdhdG9yIFNuYXBwZXI=/base_2.webp",
+        "/items/QWxsaWdhdG9yIFNuYXBwZXI=/parts_1.webp",
+        "/items/QWxsaWdhdG9yIFNuYXBwZXI=/parts_2.webp"
+      ],
+      "img_3d_url": "/items/QWxsaWdhdG9yIFNuYXBwZXI=/hero_3d.glb",
+      "parts": [
+        {
+          "id": "part_1",
+          "name": "Dot Sight",
+          "description": "Allows for *quicker aiming* and more *precise shooting*.",
+          "price": 1500,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_2",
+          "name": "Slick Magazine Catch",
+          "description": "Designed for smooth operation, it allows for *quick magaine changes*.",
+          "price": 4000,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_3",
+          "name": "High-Capacity Mag",
+          "description": "Higher capacity compared to regular magazines. *More ammo means less reloading*.",
+          "price": 3000,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_4",
+          "name": "Compensatory",
+          "description": "*Reduces muzzle rise*. When tilted, the barrel looks like an open mouth with bared fangs.",
+          "price": 5000,
+          "discount": 0,
+          "discount_description": ""
+        }
+      ]
+    },
+    {
+      "id": "U2lsZW5jZXIgOQ==",
+      "name": "Silencer 9",
+      "description": "A powerful and precise handgun. The built-in suppressor effectively dampens the sound of all shots.",
+      "short_description": "Silenced handgun.",
+      "price": 5500,
+      "discount": 0,
+      "category": "weapons",
+      "related_to": [],
+      "img_hero_url": "/items/U2lsZW5jZXIgOQ==/hero.webp",
+      "img_gallery_urls": [
+        "/items/U2lsZW5jZXIgOQ==/base_1.webp",
+        "/items/U2lsZW5jZXIgOQ==/base_2.webp",
+        "/items/U2lsZW5jZXIgOQ==/parts_1.webp",
+        "/items/U2lsZW5jZXIgOQ==/parts_2.webp"
+      ],
+      "img_3d_url": "/items/U2lsZW5jZXIgOQ==/hero_3d.glb",
+      "parts": [
+        {
+          "id": "part_10",
+          "name": "Dot Sight",
+          "description": "Allows for *quicker aiming* and more *precise shooting*.",
+          "price": 1500,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_11",
+          "name": "Aluminum Trigger",
+          "description": "Laser-finished, its *lightweight design offers easy handling*.",
+          "price": 3500,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_12",
+          "name": "High-Capacity Mag",
+          "description": "Higher capacity compared to regular magazines. *More ammo means less reloading*.",
+          "price": 3500,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_13",
+          "name": "Add-on Suppressor",
+          "description": "An added sound moderator makes for *near-silent firing*.",
+          "price": 4000,
+          "discount": 0,
+          "discount_description": ""
+        }
+      ]
+    },
+    {
+      "id": "UyZTIE0yMzI=",
+      "name": "S&S M232",
+      "description": "An incredibly reliable handgun. Grace bought it for self-defense with her first paycheck.",
+      "short_description": "FBI issued handgun.",
+      "price": 750,
+      "discount": 0,
+      "category": "weapons",
+      "related_to": [],
+      "img_hero_url": "/items/UyZTIE0yMzI=/hero.webp",
+      "img_gallery_urls": ["/items/UyZTIE0yMzI=/base_1.webp"],
+      "img_3d_url": "/items/UyZTIE0yMzI=/hero_3d.glb",
+      "parts": []
+    },
+    {
+      "id": "QjkzNA==",
+      "name": "B934",
+      "description": "A straight blowback handgun. This basic, interwar design prioritizes durability over firepower. This italian pistol was originally a high-class military firearm. An American version was also released and seems to have been the care center's primary self-defense weapon.",
+      "short_description": "Basic military firearm.",
+      "price": 500,
+      "discount": 0,
+      "category": "weapons",
+      "related_to": [],
+      "img_hero_url": "/items/QjkzNA==/hero.webp",
+      "img_gallery_urls": ["/items/QjkzNA==/base_1.webp"],
+      "img_3d_url": "/items/QjkzNA==/hero_3d.glb",
+      "parts": []
+    },
+    {
+      "id": "UmVxdWllbQ==",
+      "name": "Requiem",
+      "description": "A DSO-issued, large assault revolver that uses 12.7x55mm rounds. Offering high-powered piercing capabilities, it's a weapon you can rely on.",
+      "short_description": "DSO high powered revolver.",
+      "price": 100000,
+      "discount": 0,
+      "category": "weapons",
+      "related_to": [],
+      "img_hero_url": "/items/UmVxdWllbQ==/hero.webp",
+      "img_gallery_urls": [
+        "/items/UmVxdWllbQ==/base_1.webp",
+        "/items/UmVxdWllbQ==/base_2.webp",
+        "/items/UmVxdWllbQ==/parts_1.webp",
+        "/items/UmVxdWllbQ==/parts_2.webp"
+      ],
+      "img_3d_url": "/items/UmVxdWllbQ==/hero_3d.glb",
+      "parts": [
+        {
+          "id": "part_38",
+          "name": "Barrel Jacket",
+          "description": "The sturdy but light upper bridge integrates the front and rear sights into one structure, *improving balance*.",
+          "price": 10000,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_39",
+          "name": "Weighted Grip",
+          "description": "It acts as a counterweight to *mitigate muzzle rise* when firing.",
+          "price": 8000,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_40",
+          "name": "Ported Barrel",
+          "description": "The barrel is fitted with a gas port, expelling gas upwards to *reduce muzzle rise*.",
+          "price": 6000,
+          "discount": 0,
+          "discount_description": ""
+        }
+      ]
+    },
+    {
+      "id": "Q2xhc3NpYyA3MA==",
+      "name": "Classic 70",
+      "description": "A standard bolt-action rifle. Can deliver serious firepower in skilled hands. The scope can be swapped out or removed.",
+      "short_description": "High powered bolt-action rifle.",
+      "price": 5000,
+      "discount": 0,
+      "category": "weapons",
+      "related_to": [],
+      "img_hero_url": "/items/Q2xhc3NpYyA3MA==/hero.webp",
+      "img_gallery_urls": [
+        "/items/Q2xhc3NpYyA3MA==/base_1.webp",
+        "/items/Q2xhc3NpYyA3MA==/base_2.webp",
+        "/items/Q2xhc3NpYyA3MA==/parts_1.webp",
+        "/items/Q2xhc3NpYyA3MA==/parts_2.webp"
+      ],
+      "img_3d_url": "/items/Q2xhc3NpYyA3MA==/hero_3d.glb",
+      "parts": [
+        {
+          "id": "part_17",
+          "name": "Silver Finish Scope",
+          "description": "This scope boasts a high optical performance, making it ideal for hitting those *long-range* targets.",
+          "price": 6000,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_18",
+          "name": "Standard Scope",
+          "description": "Allows for *target magnification*. A must for *long-range precision shooting*.",
+          "price": 6000,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_19",
+          "name": "Premier Stock",
+          "description": "An elaborate stock made from high quality wood. The perfect weight for *steady firing*.",
+          "price": 3000,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_20",
+          "name": "Hair Trigger",
+          "description": "*The trigger requires little force*, making it easier to fire.",
+          "price": 3000,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_21",
+          "name": "Enhanced Leaf Spring",
+          "description": "The spring aids in chambering cartridges from the magazine for *smoother loading*.",
+          "price": 4000,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_22",
+          "name": "PVD Barrel",
+          "description": "The PVD coating bolsters longevity and *minimizes friction*, guaranteeing pasting performance.",
+          "price": 7000,
+          "discount": 0,
+          "discount_description": ""
+        }
+      ]
+    },
+    {
+      "id": "TWFya3NtYW4gMUE=",
+      "name": "Marksman 1A",
+      "description": "A semi-automatic marksman rifle. The damage per shot is limited, but it boasts a high rate of fire and fast reload speeds.",
+      "short_description": "Semi-automatic marksman rifle.",
+      "price": 6500,
+      "discount": 0,
+      "category": "weapons",
+      "related_to": [],
+      "img_hero_url": "/items/TWFya3NtYW4gMUE=/hero.webp",
+      "img_gallery_urls": [
+        "/items/TWFya3NtYW4gMUE=/base_1.webp",
+        "/items/TWFya3NtYW4gMUE=/base_2.webp",
+        "/items/TWFya3NtYW4gMUE=/parts_1.webp",
+        "/items/TWFya3NtYW4gMUE=/parts_2.webp"
+      ],
+      "img_3d_url": "/items/TWFya3NtYW4gMUE=/hero_3d.glb",
+      "parts": [
+        {
+          "id": "part_35",
+          "name": "Semi-auto Scope",
+          "description": "Suitable for semi-automatic rifles. Designed to withstand the strain of continous firing, *increasing precision*.",
+          "price": 6000,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_36",
+          "name": "Reinforced Bolt",
+          "description": "This hardened bolt is made from impact resistant material. Polished for smooth operation, *increasing the rate of fire*.",
+          "price": 7000,
+          "discount": 0,
+          "discount_description": ""
+        },
+        {
+          "id": "part_37",
+          "name": "High-Capacity Mag",
+          "description": "Higher capacity compared to regular magazines. *More ammo means less reloading*.",
+          "price": 6000,
+          "discount": 0,
+          "discount_description": ""
+        }
+      ]
+    }
+  ]
+}
