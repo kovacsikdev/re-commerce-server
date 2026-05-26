@@ -3,6 +3,17 @@ import mockData from "./assets/mock-data.json";
 
 export type Category = 'weapons' | 'melee' | 'medical' | 'ammunition' | 'parts'
 
+type PriceFilter = {
+  min?: number;
+  max?: number;
+};
+
+type GearFilter = {
+  category?: Category | Category[];
+  price?: PriceFilter;
+  sort?: 'asc' | 'desc';
+};
+
 export type Product = {
   id: string;
   name: string;
@@ -45,6 +56,37 @@ export class ProductsService {
 
   findByCategory(category: Category): Product[] | undefined {
     return this.catalog.items.filter((item) => item.category === category)
+  }
+
+  findByGear(filters: GearFilter): Product[] {
+    const categoryFilters = Array.isArray(filters.category)
+      ? filters.category
+      : filters.category
+        ? [filters.category]
+        : [];
+    const minPrice = filters.price?.min;
+    const maxPrice = filters.price?.max;
+    const sort = filters.sort ?? 'desc';
+
+    const filteredItems = this.catalog.items.filter((item) => {
+      const matchesCategory =
+        categoryFilters.length === 0 ||
+        categoryFilters.includes(item.category as Category);
+      const matchesMinPrice =
+        typeof minPrice !== 'number' || Number.isNaN(minPrice)
+          ? true
+          : item.price >= minPrice;
+      const matchesMaxPrice =
+        typeof maxPrice !== 'number' || Number.isNaN(maxPrice)
+          ? true
+          : item.price <= maxPrice;
+
+      return matchesCategory && matchesMinPrice && matchesMaxPrice;
+    });
+
+    return filteredItems.sort((a, b) =>
+      sort === 'asc' ? a.price - b.price : b.price - a.price,
+    );
   }
 
   getSpecials(): Product[] | undefined {
